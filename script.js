@@ -1,4 +1,5 @@
 const author = 'husnun';
+
 document.getElementById('hati').innerHTML = `Made with &#10084;&#65039; by ${author}`;
 
 const swals = Swal.mixin({
@@ -23,3 +24,5 @@ async function mulai() {
   await swals.fire('Berbahagialah... ❤ ');
   await swals.fire('Husnun sayang Ara ❤😊 ');
 }
+
+const batasWaktu = setTimeout(mulai, 291000);
